@@ -1,0 +1,13 @@
+class Couleur :
+    NOIR = "NOIR"
+    BLANC = "BLANC"
+    all = [NOIR, BLANC]
+
+class Direction :
+    HAUT_GAUCHE = "HAUT_GAUCHE"
+    BAS_GAUCHE = "BAS_GAUCHE"
+    HAUT_DROITE = "HAUT_DROITE"
+    BAS_DROITE = "BAS_DROITE"
+    all = [HAUT_GAUCHE, HAUT_DROITE, BAS_GAUCHE, BAS_DROITE]
+    haut = [HAUT_GAUCHE, HAUT_DROITE]
+    bas = [BAS_GAUCHE, BAS_DROITE]
