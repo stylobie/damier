@@ -11,13 +11,13 @@ class Pion(Piece):
 
     def typePiece(self):
         return TypePiece.PION
-    """
-    Crée un pion, en initialisant sa couleur
-    @param couleur
-    couleur du pion (noir ou blanc)
-    """
 
-    def __init__(self, couleur):
+    def __init__(self, couleur) :
+        """
+        Crée un pion, en initialisant sa couleur
+        @param couleur
+        couleur du pion (noir ou blanc)
+        """
         super(Pion, self).__init__(couleur)
 
     def getDestinationsPossiblesSansCapture(self):
